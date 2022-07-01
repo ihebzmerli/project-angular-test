@@ -1,0 +1,26 @@
+<div>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>face icon</mat-icon>
+      </button>
+      <span>Test Angular Tanitlab</span>
+      <span class="example-spacer"></span>
+    </mat-toolbar>
+</div>
+
+<h2>Adress details :</h2>
+<mat-list role="list">
+    street :<mat-list-item role="listitem"><strong>Street : </strong>{{ people.address.street }}</mat-list-item>
+    <mat-list-item role="listitem"><strong>Suite : </strong>{{ people.address.suite }}</mat-list-item>
+    <mat-list-item role="listitem"><strong>City : </strong>{{ people.address.city }}</mat-list-item>
+    <mat-list-item role="listitem"><strong>Zip code : </strong>{{ people.address.zipcode }}</mat-list-item>
+</mat-list>
+<div class="full" id="map"></div>
+
+
+<h2>company details :</h2>
+<mat-list role="list">
+    <mat-list-item role="listitem"><strong>Name : </strong>{{ people.company.name }}</mat-list-item>
+    <mat-list-item role="listitem"><strong>Catch Phrase : </strong>{{ people.company.catchPhrase }}</mat-list-item>
+    <mat-list-item role="listitem"><strong>Bbisseness : </strong>{{ people.company.bs }}</mat-list-item>
+</mat-list>
