@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import {MatListModule} from '@angular/material/list';
+import { GoogleMapsModule } from '@angular/google-maps';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import {MatListModule} from '@angular/material/list';
     HttpClientModule,
     MatPaginatorModule,
     MatSortModule,
-    MatListModule
+    MatListModule,
+    GoogleMapsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
